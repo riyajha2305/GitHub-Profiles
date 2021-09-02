@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right,rgb(20, 20, 70), rgb(9, 9, 78), rgb(8, 8, 51), rgb(7, 7, 41), rgb(7, 7, 41), rgb(8, 8, 51),rgb(9, 9, 78),rgb(33, 9, 78)); 
+}
+/*Headings*/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+h1.big-heading{
+    text-align: left;
+    color:#fff;
+}
+.big-heading{
+font-family: 'Montserrat', sans-serif;
+Size:3.5rem;
+line-height: 1.5;
+color:#fff;
+}
+.user-heading{
+    font-size: 3rem;
+    color:#fff;
+}
+.section-heading{
+    font-size: 1.5rem;
+    line-height: 3em;
+    text-align: left;
+    color:#fff;
+}
+.small-heading{
+    color: #fff;
+    font-size: 1.5rem;
+}
+/*Navigation Bar*/
+img.logo{
+    height:51px;
+    width: 62px;
+    margin-left:-21px;
+    padding: 0 10px 0 0;
+    margin-top:-15px;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+.signin-btn{
+    padding:6px 16px;
+}
+/**containers**/
+.container{
+    padding-bottom: 7%;
+}
+.container-fluid{
+    padding:7% 15%;
+}
+.container-nav{
+    padding:4% 15%;
+}
+/*astronaut*/
+.pos-img-1{
+    margin-right: -185px;
+    margin-top: 45px;
+}
+/*form*/
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left,rgb(79, 79, 175), rgb(7, 7, 41));
+    background-image: -moz-linear-gradient(left,rgb(79, 79, 175),  rgb(8, 8, 51));
+    background-image: -ms-linear-gradient(left,rgb(79, 79, 175), rgb(9, 9, 78));
+    background-image: -o-linear-gradient(left, rgb(79, 79, 175), rgb(20, 20, 70));
+    }
+.label{
+    color:#fff;
+    text-align: left;
+}
+/*footer*/
+.footer{
+    background-color: #fff;
+}
+.social-sec{
+    padding:5px;
+}
+.social-icons{
+    color:rgb(20, 20, 70);
+}
+.social-icons:hover{
+    color:rgb(79, 79, 175);
+}
+/*explore page*/
+/*profiles-sec*/
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left,rgb(7, 7, 41),rgb(79, 79, 175), rgb(7, 7, 41));
+    background-image: -moz-linear-gradient(left,rgb(7, 7, 41),rgb(79, 79, 175),  rgb(8, 8, 51));
+    background-image: -ms-linear-gradient(left,rgb(7, 7, 41),rgb(79, 79, 175), rgb(9, 9, 78));
+    background-image: -o-linear-gradient(left, rgb(7, 7, 41),rgb(79, 79, 175), rgb(20, 20, 70));
+    }
+.icons{
+    color:#fff;
+}
+.users{
+    padding:5%;
+}
+/*login page*/
+/*astronaut*/
+.pos-img-2{
+    margin-right: -185px;
+    margin-top: 45px;
+}
+/*profile page*/
+.icons-profile{
+    color:#fff;
+    padding:0 5% 0 0;
+}
+.profile-data{
+    text-align: right;
+}
+@media (max-width:1028px){
+    .pos-btn{
+        display:inline-flex;
+        left:0;
+    }
+    .pos-img-1{
+        position:static;
+        transform: rotate(-50deg);
+        margin-left:-232px;
+        padding-right: 0;
+        padding-top:90px;
+    }
+    .pos-img-2{
+        position:static;
+        transform: rotate(-50deg);
+        margin-left:-238px;
+        padding-right: 0;
+        padding-top:90px;
+    }
+    hr .style-one {
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left,rgb(7, 7, 41),rgb(79, 79, 175), rgb(7, 7, 41));
+        background-image: -moz-linear-gradient(left,rgb(7, 7, 41),rgb(79, 79, 175), rgb(7, 7, 41));
+        background-image: -ms-linear-gradient(left,rgb(7, 7, 41),rgb(79, 79, 175), rgb(7, 7, 41));
+        background-image: -o-linear-gradient(left, rgb(7, 7, 41),rgb(79, 79, 175), rgb(7, 7, 41));
+        }
+    .profile-data{
+        text-align: center;
+    }
+}
+
